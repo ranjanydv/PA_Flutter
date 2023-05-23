@@ -1,0 +1,46 @@
+name: pa_mobile
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  velocity_x: ^3.6.0
+  get: ^4.6.5
+  flutter_launcher_icons: ^0.12.0
+  font_awesome_flutter: ^10.4.0
+  bottom_navy_bar: ^6.0.0
+  http: ^0.13.5
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.1
+  firebase_storage: ^11.2.1
+  cloud_firestore: ^4.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+    - family: Beyno
+      fonts:
+        - asset: assets/fonts/BEYNO.ttf
